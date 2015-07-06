@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>trajectory_annotation_tool</name>
+  <version>0.0.1</version>
+  <description>The trajectory_annotation_tool package</description>
+
+  <maintainer email="fxj345@cs.bham.ac.uk">Ferdian Jovan</maintainer>
+
+  <license>MIT</license>
+
+  <author email="fxj345@cs.bham.ac.uk">Ferdian Jovan</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>human_trajectory</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>mongodb_store</build_depend>
+  <build_depend>human_trajectory_classifier</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>vision_people_logging</build_depend>
+  <run_depend>human_trajectory</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>human_trajectory_classifier</run_depend>
+  <run_depend>mongodb_store</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>vision_people_logging</run_depend>
+
+</package>
